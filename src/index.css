@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logo-marquee-wrapper {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .logo-marquee {
+    display: flex;
+    animation: scroll 15s linear infinite;
+  }
+  
+  .logo-image {
+    height: 95px;
+    width: auto;
+    margin: 20px;
+  }
+  
