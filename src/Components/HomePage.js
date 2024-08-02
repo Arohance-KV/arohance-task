@@ -16,7 +16,7 @@ const HomePage = () => {
             creators, crafting partnerships that inspire and elevate.
           </p>
         </div>
-        <div className="mt-8 space-x-4">
+        <div className="mt-8 space-x-4 flex display-inline justify-center">
           <button className="bg-blue-600 text-white px-6 py-3 rounded">
             I'M A CREATOR
           </button>
