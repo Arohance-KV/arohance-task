@@ -6,17 +6,25 @@ const Info = () => {
     <>
       <div className="bg-yellow-100 p-4 " >
         <p className="text-black font-medium text-center text-4xl font-serif">
-          A COMMUNITY BUILT ON CREATIVITY AND COLLABORATION
+          A COMMUNITY BUILT ON<br/> CREATIVITY AND COLLABORATION
         </p>
-        <div className="flex justify-center items-center my-4">
-          {/* <div className="text-green-500">(add image)</div> */}
-        </div>
-        <div className="flex justify-between items-center px-4">
-          <span className="text-black">500k REACH</span>
-          <span className="text-black">100+ MICRO & MACRO CREATORS</span>
-        </div>
-
         
+        <div className="flex justify-center mt-14">
+        <div className="flex space-x-8">
+        <div className="text-center">
+          <div className="text-4xl font-bold ">
+            <CountUp start={1} end={500} duration={8} /><span>K</span>
+          </div>
+          <p className="text-2lg font-bold text-gray-900 mt-2">Twitter Followers</p>
+        </div>
+        <div className="text-center">
+          <div className="text-4xl font-bold">
+            <CountUp start={1} end={100} duration={8} /><span>+</span>
+          </div>
+          <p className="text-2lg text-gray-900 mt-2 font-bold">MICRO & MACRO<br/> CREATORS</p>
+        </div>
+      </div>
+        </div>
 
 
       </div>

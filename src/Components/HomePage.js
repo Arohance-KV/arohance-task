@@ -47,12 +47,12 @@ const HomePage = () => {
               className="logo-image"
               sizes="(max-width: 767px) 64px, 120px"
             />
-            <img
+            {/* <img
               src="https://cdn.prod.website-files.com/64a835836dfc2c3cb2aad301/651ee87748428a3c2ccbcd2a_urbanic.png"
               alt="Urbanic"
               className="logo-image"
               sizes="(max-width: 767px) 64px, 120px"
-            />
+            /> */}
             <img
               src="https://cdn.prod.website-files.com/64a835836dfc2c3cb2aad301/651ee877dd0417e42983d8b3_DEAR%20DONNA.png"
               alt="Dear Donna"
@@ -191,11 +191,11 @@ const HomePage = () => {
               alt="House of Candy"
               className="logo-image"
             />
-            <img
+            {/* <img
               src="https://cdn.prod.website-files.com/64a835836dfc2c3cb2aad301/651ee87748428a3c2ccbcd2a_urbanic.png"
               alt="Urbanic"
               className="logo-image"
-            />
+            /> */}
             <img
               src="https://cdn.prod.website-files.com/64a835836dfc2c3cb2aad301/651ee877dd0417e42983d8b3_DEAR%20DONNA.png"
               alt="Dear Donna"
