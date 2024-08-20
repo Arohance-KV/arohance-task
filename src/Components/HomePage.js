@@ -11,14 +11,14 @@ const HomePage = () => {
             CREATIVE WORK, CREATIVE MIND
           </h2>
           <h1 className="text-5xl font-bold text-gray-800 mt-2 italic">
-            A platform empowering creators, elevating brands
+            A platform<br /> empowering creators,<br /> elevating brands
           </h1>
           <p className="text-lg text-gray-700 mt-4">
-            We serve as the bridge between innovative brands and talented
+            We serve as the bridge between innovative brands and <br /> talented
             creators, crafting partnerships that inspire and elevate.
           </p>
         </div>
-        <div className="mt-8 space-x-4 flex display-inline justify-center">
+        <div className="mt-8 space-x-4 ">
           <button className="bg-blue-600 text-white px-6 py-3 rounded">
             I'M A CREATOR
           </button>

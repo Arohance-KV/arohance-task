@@ -5,9 +5,12 @@ const Info = () => {
   return (
     <>
       <div className="bg-yellow-100 p-4 " >
-        <p className="text-black font-medium text-center text-4xl font-serif">
+        <p className="text-black font-medium text-center text-4xl font-serif mb-5">
           A COMMUNITY BUILT ON<br/> CREATIVITY AND COLLABORATION
         </p>
+        <br />
+
+        <img className="m-0" src="images/city_list.png"></img>
         
         <div className="flex justify-center mt-14">
         <div className="flex space-x-8">
