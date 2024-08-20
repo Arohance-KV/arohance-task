@@ -1,16 +1,35 @@
-import React from 'react'
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-    return (
-        <header className="flex justify-between items-center p-4 bg-yellow-100">
-          <div className="text-6xl font-bold text-blue-700 ml-14 mt-6">TES</div>
-          <nav className="space-x-4 mr-14">
-            <a href="#services" className="text-gray-700 hover:underline font-bold">Services</a>
-            <a href="#career" className="text-gray-700 hover:underline font-bold">Career</a>
-            <a href="#contact" className="text-gray-700 hover:underline font-bold">Contact Us</a>
-          </nav>
-        </header>
-      );
-}
+  return (
+    <>
+      <header className="flex justify-between items-center p-4 bg-yellow-100">
+        <img src="images/title-logo.png" alt="logo" width="100" height="200" />
 
-export default Navbar
+        <nav className="space-x-4 mr-14">
+          <NavLink
+            to="/services"
+            className="text-gray-700 hover:underline font-bold"
+          >
+            Services
+          </NavLink>
+          <NavLink
+            to="/career"
+            className="text-gray-700 hover:underline font-bold"
+          >
+            Careers
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className="text-gray-700 hover:underline font-bold"
+          >
+            Contact Us
+          </NavLink>
+        </nav>
+      </header>
+    </>
+  );
+};
+
+export default Navbar;
