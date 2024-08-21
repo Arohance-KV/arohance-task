@@ -5,38 +5,41 @@ const Footer = () => {
     <footer className="bg-yellow-100 p-16">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="flex flex-col items-center md:items-start mb-4 md:mb-0">
+          <a href="/">
           <img
-            src="/images/arohance-white-logo.png"
+            src="/images/arohance-logo.png"
             alt="Company Logo"
-            className="mb-4"
+            className="mb-4 size-60"
           />
-          <div className="text-center md:text-left">
+          </a>
+         
+          {/* <div className="text-center md:text-left">
             <div className="text-lg font-bold text-gray-800">Arohance</div>
             <p className="text-sm text-gray-600 font-medium">
               TECH & MARKETING
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-col md:flex-row md:space-x-12">
           <div className="mb-4 md:mb-0">
             <ul className="space-y-2 text-center md:text-left text-balance font-semibold mr-20">
               <li>
-                <a href="#about" className="text-gray-700 hover:underline">
+                <a href="/" className="text-gray-700 hover:underline">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-gray-700 hover:underline">
+                <a href="/contact" className="text-gray-700 hover:underline">
                   Contact Us
                 </a>
               </li>
               <li>
-                <a href="#brands" className="text-gray-700 hover:underline">
+                <a href="/" className="text-gray-700 hover:underline">
                   Brands
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-gray-700 hover:underline">
+                <a href="/services" className="text-gray-700 hover:underline">
                   Services
                 </a>
               </li>
@@ -71,16 +74,28 @@ const Footer = () => {
                 <i className="fab fa-facebook-f"></i>
               </a>
               <a
+                href="https://www.linkedin.com/company/arohance-india/"
+                className="text-gray-700 hover:text-gray-900"
+              >
+               <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a
                 href="https://www.twitter.com"
                 className="text-gray-700 hover:text-gray-900"
               >
                 <i className="fab fa-twitter"></i>
               </a>
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/arohance/"
                 className="text-gray-700 hover:text-gray-900"
               >
                 <i className="fab fa-instagram"></i>
+              </a>
+              <a
+                href="https://wa.link/sfq1yw"
+                className="text-gray-700 hover:text-gray-900"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
               </a>
             </div>
           </div>

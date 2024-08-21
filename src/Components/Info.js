@@ -4,26 +4,43 @@ import CountUp from "react-countup";
 const Info = () => {
   return (
     <>
-      <div className="bg-yellow-100 p-4 ">
+      <div className="bg-yellow-100 ">
         <p className="text-black font-medium text-center text-4xl font-serif mb-5">
           A COMMUNITY BUILT ON
           <br /> CREATIVITY AND COLLABORATION
         </p>
         <br />
 
-        <img className="m-0" src="images/city_list.png"></img>
+        <img className="w-full m-0 p-0 block" src="images/city_list.png"></img>
 
         <hr />
+
+       
+      </div>
+
+      <div className="bg-yellow-100 p-10 w-full">
+        <div className="flex flex-col bg-yellow-100 ml-1 mr-1 justify-left">
+          <h1 className="font-medium text-3xl mt-5 font-serif">
+            TES'S Mission
+          </h1>
+          <p className="text-2xl font-normal p-5 text-rose-800">
+            Our mission is to transform the way brands and creators interact. By
+            fostering a vibrant community where ideas flow freely, we enable
+            both parties to glow and thrive. We are dedicated to nurturing these
+            relationships, ensuring that every collaboration is impactful and
+            mutually beneficial.
+          </p>
+        </div>
 
         <div className="flex justify-center mt-14">
           <div className="flex space-x-8">
             <div className="text-center">
               <div className="text-4xl font-bold ">
-                <CountUp start={1} end={500} duration={8} />
-                <span>K</span>
+                <CountUp start={1} end={5000000} duration={7} />
+                {/* <span>K</span> */}
               </div>
               <p className="text-2lg font-bold text-gray-900 mt-2">
-                Twitter Followers
+                Total Reach
               </p>
             </div>
             <div className="text-center">
@@ -38,21 +55,7 @@ const Info = () => {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="bg-yellow-100 p-10">
-        <div className="flex flex-col bg-yellow-100 ml-1 mr-1 justify-left">
-          <h1 className="font-medium text-3xl mt-5 font-serif">
-            TES'S Mission
-          </h1>
-          <p className="text-2xl font-normal p-5 text-rose-800">
-            Our mission is to transform the way brands and creators interact. By
-            fostering a vibrant community where ideas flow freely, we enable
-            both parties to glow and thrive. We are dedicated to nurturing these
-            relationships, ensuring that every collaboration is impactful and
-            mutually beneficial.
-          </p>
-        </div>
         <div className="flex flex-col space-y-8">
           <div className="flex flex-col bg-yellow-100 p-5 w-3/4 items-start	">
             <h1 className="font-medium text-4xl mt-5 font-serif text-left">
@@ -70,7 +73,7 @@ const Info = () => {
             </p>
           </div>
 
-          <div className="flex flex-col bg-yellow-100 p-4 w-3/4 ml-96 items-end">
+          <div className="flex flex-col bg-yellow-100 p-4 w-3/4 items-end">
             <h1 className="font-medium text-4xl mt-5 font-serif">For brands</h1>
             <p className="text-2xl font-normal p-1 tracking-wider text-rose-800 text-right">
               The escape society links brands with talented creators who can

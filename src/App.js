@@ -5,6 +5,8 @@ import Services from './Components/Services';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ContactUs } from './Components/ContactUs';
 import { Careers } from './Components/Careers';
+import Footer from './Components/Footer';
+import Community from './Components/Community';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
       <Route path="/career" element={<Careers />} />
       <Route path="/contact" element={<ContactUs />} />
     </Routes>
+    <Community />
+    <Footer />
   </BrowserRouter>
   </div>
 

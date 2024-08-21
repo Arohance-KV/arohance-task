@@ -41,7 +41,6 @@ export const Careers = () => {
         </span>
       </p>
     </div>
-      <Footer />
       </>
   );
 };

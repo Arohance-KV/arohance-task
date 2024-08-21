@@ -68,7 +68,46 @@ const HomePage = () => {
             />
           
             {/* Duplicate logos for continuous scrolling effect */}
+
             <img
+              src="images/animation-logo/adya_1.png"
+              alt="Adya"
+              className="logo-image"
+              sizes="(max-width: 767px) 64px, 120px"
+            />
+            <img
+              src="images/animation-logo/parshwa_2.png"
+              alt="Parshwa"
+              className="logo-image"
+              sizes="(max-width: 767px) 64px, 120px"
+            />
+            <img
+              src="images/animation-logo/mv_3.png"
+              alt="MV"
+              className="logo-image"
+              sizes="(max-width: 767px) 64px, 120px"
+            />
+            <img
+              src="images/animation-logo/daadis_4.png"
+              alt="Daadis"
+              className="logo-image"
+              sizes="(max-width: 767px) 64px, 120px"
+            />
+            <img
+              src="images/animation-logo/karats_5.png"
+              alt="karats"
+              className="logo-image"
+              
+            />
+            <img
+              src="images/animation-logo/adrover_6.png"
+              alt="Adrover"
+              className="logo-image"
+            />
+
+             {/* Duplicate logos for continuous scrolling effect */}
+            
+             <img
               src="images/animation-logo/adya_1.png"
               alt="Adya"
               className="logo-image"
@@ -107,7 +146,7 @@ const HomePage = () => {
           </div>
       </section>
       <Info />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

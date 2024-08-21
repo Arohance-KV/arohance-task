@@ -28,11 +28,32 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo-marquee-section {
+  overflow: hidden;
+}
+
+.logo-marquee-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-marquee {
+  display: flex;
+  animation: scroll 15s linear infinite;
+}
+
+.logo-image {
+  margin: 10; /* Remove any gaps between images */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    transform: translateX(-100%);
   }
 }
+
