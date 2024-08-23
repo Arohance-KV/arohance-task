@@ -77,14 +77,14 @@ const Footer = () => {
                 href="https://www.linkedin.com/company/arohance-india/"
                 className="text-gray-700 hover:text-gray-900"
               >
-               <i class="fa-brands fa-linkedin"></i>
+               <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a
+              {/* <a
                 href="https://www.twitter.com"
                 className="text-gray-700 hover:text-gray-900"
               >
                 <i className="fab fa-twitter"></i>
-              </a>
+              </a> */}
               <a
                 href="https://www.instagram.com/arohance/"
                 className="text-gray-700 hover:text-gray-900"
@@ -95,7 +95,7 @@ const Footer = () => {
                 href="https://wa.link/sfq1yw"
                 className="text-gray-700 hover:text-gray-900"
               >
-                <i class="fa-brands fa-whatsapp"></i>
+                <i className="fa-brands fa-whatsapp"></i>
               </a>
             </div>
           </div>

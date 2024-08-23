@@ -11,9 +11,7 @@ const Info = () => {
         </p>
         <br />
 
-        <img className="w-full m-0 p-0 block" src="images/city_list.png"></img>
-
-        <hr />
+        <img className="w-full m-0 p-0 block" src="images/city_list.png" alt="city-signatures" />
 
        
       </div>

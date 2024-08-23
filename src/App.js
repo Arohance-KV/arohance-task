@@ -25,8 +25,8 @@ function App() {
       <Route path="/services" element={<Services />} />
       <Route path="/career" element={<Careers />} />
       <Route path="/contact" element={<ContactUs />} />
+      <Route path='/community' element={<Community />} />
     </Routes>
-    <Community />
     <Footer />
   </BrowserRouter>
   </div>
