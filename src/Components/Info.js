@@ -1,7 +1,13 @@
 import React from "react";
 import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
 
 const Info = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true, // Only trigger the animation once
+    threshold: 0.3, // Adjust this value to determine when the animation starts (0.3 means 30% of the element should be in view)
+  });
+
   return (
     <>
       <div className="bg-yellow-100 px-4 py-8">
@@ -9,7 +15,11 @@ const Info = () => {
           A COMMUNITY BUILT ON
           <br /> CREATIVITY AND COLLABORATION
         </p>
-        <img className="w-full" src="images/city_list.png" alt="city-signatures" />
+        <img
+          className="w-full"
+          src="images/city_list.png"
+          alt="city-signatures"
+        />
       </div>
 
       <div className="bg-yellow-100 p-6 md:p-10 w-full">
@@ -26,11 +36,14 @@ const Info = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center mt-10">
+        <div
+          className="flex justify-center items-center bg-yellow-100"
+          ref={ref}
+        >
           <div className="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold">
-                <CountUp start={1} end={5000000} duration={7} />
+                {inView && <CountUp start={1} end={5000000} duration={7} />}
               </div>
               <p className="text-lg md:text-2lg font-bold text-gray-900 mt-2">
                 Total Reach
@@ -38,8 +51,12 @@ const Info = () => {
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold">
-                <CountUp start={1} end={100} duration={8} />
-                <span>+</span>
+                {inView && (
+                  <>
+                    <CountUp start={1} end={100} duration={8} />
+                    <span>+</span>
+                  </>
+                )}
               </div>
               <p className="text-lg md:text-2lg text-gray-900 mt-2 font-bold">
                 MICRO & MACRO
@@ -56,14 +73,15 @@ const Info = () => {
                 For creators
               </h1>
               <p className="text-lg md:text-2xl font-normal p-1 tracking-wider text-rose-800 text-left">
-                At the escape society, we empower creators to elevate their craft
-                through exclusive brand collaborations, professional development
-                workshops, and showcase opportunities. Connect with brands that
-                align with your vision and gain exposure through campaigns
-                designed to highlight your talent. Join a supportive community of
-                like-minded creators, exchange ideas, and collaborate on exciting
-                projects. With us, you'll find the creative freedom and support
-                needed to take your career to new heights.
+                At the escape society, we empower creators to elevate their
+                craft through exclusive brand collaborations, professional
+                development workshops, and showcase opportunities. Connect with
+                brands that align with your vision and gain exposure through
+                campaigns designed to highlight your talent. Join a supportive
+                community of like-minded creators, exchange ideas, and
+                collaborate on exciting projects. With us, you'll find the
+                creative freedom and support needed to take your career to new
+                heights.
               </p>
             </div>
           </div>
@@ -77,9 +95,9 @@ const Info = () => {
                 The escape society links brands with talented creators who can
                 authentically tell your story. We offer tailored PR packages to
                 boost your visibility. Engage your audience through innovative
-                content and bespoke events designed to generate excitement around
-                your products. Partner with us to gain fresh perspectives and make
-                your brand stand out in a competitive market.
+                content and bespoke events designed to generate excitement
+                around your products. Partner with us to gain fresh perspectives
+                and make your brand stand out in a competitive market.
               </p>
             </div>
           </div>
@@ -92,8 +110,8 @@ const Info = () => {
           <p className="text-lg md:text-2xl font-normal tracking-normal p-8 text-rose-800">
             The Escape Society is more than just a platform; it's a vibrant
             community of innovators, visionaries, and trailblazers. Whether
-            you're looking to learn, network, or collaborate, there's a place for
-            you here.
+            you're looking to learn, network, or collaborate, there's a place
+            for you here.
           </p>
         </div>
       </div>
