@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
       <header className="flex justify-between items-center p-4 bg-yellow-100">
-        <a href="/"><img src="images/title-logo.png" alt="logo" width="100" height="200" /></a>
+        <a href="/"><img src="images/title-logo.png" alt="logo" width="150" height="250" /></a>
 
         <nav className="space-x-4 mr-14">
           <NavLink

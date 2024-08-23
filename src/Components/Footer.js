@@ -2,27 +2,26 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-yellow-100 p-16">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <div className="flex flex-col items-center md:items-start mb-4 md:mb-0">
+    <footer className="bg-yellow-100 p-8 md:p-16">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
+        
+        {/* Logo Section */}
+        <div className="flex flex-col items-center md:items-start">
           <a href="/">
-          <img
-            src="/images/arohance-logo.png"
-            alt="Company Logo"
-            className="mb-4 size-60"
-          />
+            <img
+              src="/images/arohance-logo.png"
+              alt="Company Logo"
+              className="mb-4 w-40 md:w-60"
+            />
           </a>
-         
-          {/* <div className="text-center md:text-left">
-            <div className="text-lg font-bold text-gray-800">Arohance</div>
-            <p className="text-sm text-gray-600 font-medium">
-              TECH & MARKETING
-            </p>
-          </div> */}
         </div>
-        <div className="flex flex-col md:flex-row md:space-x-12">
-          <div className="mb-4 md:mb-0">
-            <ul className="space-y-2 text-center md:text-left text-balance font-semibold mr-20">
+        
+        {/* Links and Subscription Section */}
+        <div className="flex flex-col md:flex-row md:space-x-12 w-full md:w-auto text-center md:text-left">
+          
+          {/* Links Section */}
+          <div className="mb-6 md:mb-0">
+            <ul className="space-y-2 font-semibold">
               <li>
                 <a href="/" className="text-gray-700 hover:underline">
                   About Us
@@ -45,7 +44,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="text-center md:text-left">
+          
+          {/* Subscription and Social Media Section */}
+          <div>
             <div className="mb-4">
               <label
                 htmlFor="email"
@@ -53,11 +54,11 @@ const Footer = () => {
               >
                 Subscribe
               </label>
-              <div className="flex items-center">
+              <div className="flex justify-center md:justify-start items-center">
                 <input
                   type="email"
                   id="email"
-                  className="px-4 py-2 border rounded-l"
+                  className="px-4 py-2 border rounded-l w-full md:w-auto"
                   placeholder="Your Email"
                 />
                 <button className="bg-blue-500 text-white px-4 py-2 rounded-r">
@@ -65,26 +66,16 @@ const Footer = () => {
                 </button>
               </div>
             </div>
-            <div className="space-x-4 ">
+            
+            {/* Social Media Links */}
+            <div className="flex justify-center md:justify-start space-x-4">
               <p className="mb-2">Follow Us</p>
-              <a
-                href="https://www.facebook.com"
-                className="text-gray-700 hover:text-gray-900"
-              >
-                <i className="fab fa-facebook-f"></i>
-              </a>
               <a
                 href="https://www.linkedin.com/company/arohance-india/"
                 className="text-gray-700 hover:text-gray-900"
               >
-               <i className="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
               </a>
-              {/* <a
-                href="https://www.twitter.com"
-                className="text-gray-700 hover:text-gray-900"
-              >
-                <i className="fab fa-twitter"></i>
-              </a> */}
               <a
                 href="https://www.instagram.com/arohance/"
                 className="text-gray-700 hover:text-gray-900"

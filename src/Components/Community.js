@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion"
 
 const Community = () => {
   // Array of image file names

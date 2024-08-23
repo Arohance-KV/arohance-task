@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "./Footer";
-import Community from "./Community";
 
 export const ContactUs = () => {
   return (
