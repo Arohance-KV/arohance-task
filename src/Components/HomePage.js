@@ -9,6 +9,9 @@ const HomePage = () => {
           <h2 className="text-sm text-gray-600 font-medium">
             CREATIVE WORK, CREATIVE MIND
           </h2>
+
+        
+
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mt-2 italic">
             A platform
             <br /> empowering creators,
@@ -144,7 +147,6 @@ const HomePage = () => {
         </div>
       </section>
       <Info />
-      {/* <Footer /> */}
     </>
   );
 };

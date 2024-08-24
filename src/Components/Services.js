@@ -40,7 +40,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
     </>
   );
 };

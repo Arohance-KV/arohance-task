@@ -11,12 +11,6 @@ import Community from './Components/Community';
 function App() {
   return (
     <>
-    {/* <div className="App">
-      <Navbar />
-      <HomePage />
-      <Info />
-      <Footer />
-    </div> */}
     <div className='App'>
     <BrowserRouter>
     <Navbar />
@@ -30,7 +24,6 @@ function App() {
     <Footer />
   </BrowserRouter>
   </div>
-
   </>
   );
 }

@@ -10,7 +10,7 @@ const Info = () => {
 
   return (
     <>
-      <div className="bg-yellow-100 px-4 py-8">
+      <div className="bg-yellow-100  py-8">
         <p className="text-black font-medium text-center text-2xl md:text-4xl font-serif mb-5">
           A COMMUNITY BUILT ON
           <br /> CREATIVITY AND COLLABORATION
@@ -27,7 +27,7 @@ const Info = () => {
           <h1 className="font-medium text-2xl md:text-3xl mt-5 font-serif text-center">
             TES'S Mission
           </h1>
-          <p className="text-lg md:text-2xl font-normal p-3 md:p-5 text-rose-800">
+          <p className="text-lg md:text-2xl font-normal p-3 md:p-5 text-rose-800 items-center text-center mb-9">
             Our mission is to transform the way brands and creators interact. By
             fostering a vibrant community where ideas flow freely, we enable
             both parties to glow and thrive. We are dedicated to nurturing these
