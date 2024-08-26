@@ -9,6 +9,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.30",
+    "get-google-fonts": "^1.2.2",
     "lucide-react": "^0.435.0",
     "magic-ui": "^0.1.0",
     "react": "^18.3.1",

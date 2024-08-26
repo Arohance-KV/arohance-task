@@ -2,10 +2,10 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <>
       <div className="bg-yellow-100 text-black font-serif py-10">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">Our Services</h1>
+
           
           <div className="mb-12 text-left">
             <h2 className="text-xl font-bold mb-4">To the members of the escape society:</h2>
@@ -40,7 +40,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </>
+    
   );
 };
 
