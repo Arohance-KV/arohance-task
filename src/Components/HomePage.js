@@ -1,5 +1,5 @@
 import Info from "./Info";
-// import TypingAnimation from "@/components/magicui/typing-animation.js"
+// import TypingAnimation from "@/components/magicui/typing-animation.jsx"
 
 const HomePage = () => {
   return (
