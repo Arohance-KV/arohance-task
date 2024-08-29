@@ -1,5 +1,5 @@
-import React from "react";
 import Info from "./Info";
+// import TypingAnimation from "@/components/magicui/typing-animation.jsx"
 
 const HomePage = () => {
   return (
@@ -10,9 +10,12 @@ const HomePage = () => {
             CREATIVE WORK, CREATIVE MIND
           </h2>
 
-        
+          {/* <TypingAnimation
+            className="text-4xl font-bold text-black dark:text-white"
+            text="Typing Animation"
+          /> */}
 
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mt-2 italic">
+          <h1 className="text-4xl md:text-5xl font-normal text-gray-800 mt-2 font-Yeseva">
             A platform
             <br /> empowering creators,
             <br /> elevating brands
