@@ -6,7 +6,7 @@ export const ContactUs = () => {
       {/* Contact Us Section */}
       <div className="w-full max-w-screen-lg px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-left mb-8">
+        <h1 className="text-4xl sm:text-4xl md:text-5xl font-medium text-left mb-8" style={{ fontFamily: 'Abhaya Libre, sans-serif' }}>
           Contact Us
         </h1>
 
@@ -22,7 +22,13 @@ export const ContactUs = () => {
 
         {/* Form */}
         <form className="bg-white p-6 sm:p-8 md:p-10 rounded-md shadow-lg w-full">
+        <p className="mb-5 text-[#8B3F3F] font-medium text-[25px] leading-[18px] text-center" style={{ fontFamily: 'Abhaya Libre, sans-serif' }}>
+  Paint with brands, weave your narrative, and sculpt a masterpiece of creativity.<br/>
+  Let's make your dreams take flight and your audience roar with excitement!
+</p>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-20 mb-8">
+        
             <div>
               <label
                 htmlFor="name"
@@ -33,7 +39,7 @@ export const ContactUs = () => {
               <input
                 type="text"
                 id="name"
-                className="w-full border border-gray-400 rounded-md p-3"
+                className="w-full border border-gray-400 rounded-md p-3 shadow-lg"
                 placeholder="Your name"
               />
             </div>
@@ -48,7 +54,7 @@ export const ContactUs = () => {
               <input
                 type="email"
                 id="email"
-                className="w-full border border-gray-400 rounded-md p-3"
+                className="w-full border border-gray-400 rounded-md p-3 shadow-lg"
                 placeholder="example@gmail.com"
               />
             </div>
@@ -63,7 +69,7 @@ export const ContactUs = () => {
               <input
                 type="text"
                 id="subject"
-                className="w-full border border-gray-400 rounded-md p-3"
+                className="w-full border border-gray-400 rounded-md p-3 shadow-lg"
                 placeholder="Subject"
               />
             </div>
@@ -77,7 +83,7 @@ export const ContactUs = () => {
               </label>
               <textarea
                 id="message"
-                className="w-full border border-gray-400 rounded-md p-3 h-32"
+                className="w-full border border-gray-400 rounded-md p-3 h-32 shadow-lg"
                 placeholder="Your message..."
               ></textarea>
             </div>
@@ -86,7 +92,7 @@ export const ContactUs = () => {
           <div className="text-center">
             <button
               type="submit"
-              className="bg-[#061bb0] text-white font-medium text-lg py-3 px-12 rounded-md"
+              className="bg-[#061bb0] text-white font-medium text-lg py-3 px-16 rounded-md"
             >
               Send Message
             </button>

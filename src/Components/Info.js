@@ -11,7 +11,7 @@ const Info = () => {
   return (
     <>
       <div className="bg-yellow-100  py-8">
-        <p className="text-black font-medium text-center text-2xl md:text-4xl font-serif mb-5">
+        <p className="text-slate-800 font-semibold text-center text-2xl md:text-4xl font-serif mb-5" style={{fontFamily: 'Abhaya Libre'}}>
           A COMMUNITY BUILT ON
           <br /> CREATIVITY AND COLLABORATION
         </p>
@@ -24,10 +24,10 @@ const Info = () => {
 
       <div className="bg-yellow-100 p-6 md:p-10 w-full">
         <div className="bg-yellow-100 text-left">
-          <h1 className="font-medium text-2xl md:text-3xl mt-5 font-serif text-center">
-            TES'S Mission
+          <h1 className="font-medium text-6xl md:text-4xl mt-5 text-center" style={{ fontFamily: 'Aclonica, sans-serif' }} >
+            TES'S MISSION
           </h1>
-          <p className="text-lg md:text-2xl font-normal p-3 md:p-5 text-rose-800 items-center text-center mb-9">
+          <p className="text-lg md:text-2xl font-HoloLens p-3 md:p-5 text-[#8B3F3F] items-center text-center mb-9">
             Our mission is to transform the way brands and creators interact. By
             fostering a vibrant community where ideas flow freely, we enable
             both parties to glow and thrive. We are dedicated to nurturing these
@@ -69,10 +69,10 @@ const Info = () => {
         <div className="flex flex-col space-y-8 mt-10">
           <div className="bg-yellow-100 p-5 w-full flex justify-start">
             <div className="max-w-full md:max-w-3/4">
-              <h1 className="font-medium text-2xl md:text-4xl mt-5 font-serif text-left">
+              <h1 className="font-medium font-aclonica text-2xl md:text-4xl mt-5 text-left">
                 For creators
               </h1>
-              <p className="text-lg md:text-2xl font-normal p-1 tracking-wider text-rose-800 text-left">
+              <p className="text-lg md:text-2xl font-normal font-eras p-1 tracking-wider text-[#8B3F3F] text-left" style={{ fontFamily: "Eras ITC, Eras Medium ITC, sans-serif" }}>
                 At the escape society, we empower creators to elevate their
                 craft through exclusive brand collaborations, professional
                 development workshops, and showcase opportunities. Connect with
@@ -88,10 +88,10 @@ const Info = () => {
 
           <div className="bg-yellow-100 p-5 w-full flex justify-end">
             <div className="max-w-full md:max-w-3/4">
-              <h1 className="font-medium text-2xl md:text-4xl mt-5 font-serif text-right">
+              <h1 className="font-medium text-2xl md:text-4xl mt-5 font-aclonica text-right">
                 For brands
               </h1>
-              <p className="text-lg md:text-2xl font-normal p-1 tracking-wider text-rose-800 text-right">
+              <p className="text-lg md:text-2xl font-normal p-1 tracking-wider text-[#8B3F3F] text-right" style={{ fontFamily: "Eras ITC, Eras Medium ITC, sans-serif" }}>
                 The escape society links brands with talented creators who can
                 authentically tell your story. We offer tailored PR packages to
                 boost your visibility. Engage your audience through innovative
@@ -104,14 +104,14 @@ const Info = () => {
         </div>
 
         <div className="flex justify-center flex-col text-center mt-10 px-4 md:px-0">
-          <h1 className="font-bold text-2xl md:text-3xl mt-5 font-serif">
+          <h1 className="font-medium text-2xl md:text-4xl mt-5 font-serif"  style={{ fontFamily: 'Aclonica, sans-serif' }}>
             THE ESCAPE SOCIETY
           </h1>
-          <p className="text-lg md:text-2xl font-normal tracking-normal p-8 text-rose-800">
+          <p className="text-lg md:text-2xl font-normal tracking-normal p-8 text-[#8B3F3F]" style={{ fontFamily: "Eras ITC, Eras Medium ITC, sans-serif" }}>
             The Escape Society is more than just a platform; it's a vibrant
             community of innovators, visionaries, and trailblazers. Whether
-            you're looking to learn, network, or collaborate, there's a place
-            for you here.
+            you're looking to learn, network, or collaborate,<b> there's a place
+            for you here.</b> 
           </p>
         </div>
       </div>

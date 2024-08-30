@@ -14,11 +14,11 @@ const Community = () => {
 
   return (
     <div className="bg-yellow-100 p-4 sm:p-6">
-      <h1 className="text-start font-bold text-4xl sm:text-6xl mb-4 sm:mb-6">Our Community</h1>
+      <h1 className="text-start font-medium text-4xl sm:text-7xl mb-4 sm:mb-6" style={{ fontFamily: 'Abhaya Libre, sans-serif' }}>Our Community</h1>
       <div className="overflow-hidden">
         {/* First Row - Moving Left to Right */}
         <motion.div
-          className="flex space-x-2 mb-4 sm:mb-6"
+          className="flex space-x-6 mb-4 sm:mb-6"
           animate={{ x: ["0%", "-100%"] }}
           transition={{ duration: 30, loop: Infinity, ease: "linear" }}
         >
@@ -27,7 +27,7 @@ const Community = () => {
               <img
                 src={`/images/community_pic/${image}`}
                 alt={`Community ${index + 1}`}
-                className="w-full h-40 sm:h-96 object-cover rounded-lg"
+                className="w-full h-40 sm:h-72 object-cover rounded-lg"
               />
             </div>
           ))}
@@ -35,7 +35,7 @@ const Community = () => {
 
         {/* Second Row - Moving Right to Left */}
         <motion.div
-          className="flex space-x-2 sm:space-x-4"
+          className="flex space-x-6 sm:space-x-6"
           animate={{ x: ["-100%", "0%"] }}
           transition={{ duration: 30, loop: Infinity, ease: "linear" }}
         >
@@ -44,7 +44,7 @@ const Community = () => {
               <img
                 src={`/images/community_pic/${image}`}
                 alt={`Community ${index + 1}`}
-                className="w-full h-40 sm:h-96 object-cover rounded-lg"
+                className="w-full h-40 sm:h-72 object-cover rounded-lg"
               />
             </div>
           ))}

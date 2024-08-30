@@ -9,8 +9,8 @@ const Navbar = () => {
   };
 
   return (
-      <header className="flex justify-between items-center p-4 bg-yellow-100 ">
-        <a href="/">
+      <header className="flex justify-between items-center p-1  bg-yellow-100 ">
+        <a href="/" className="m-1">
           <img src="images/title-logo.png" alt="logo" width="150" height="250" />
         </a>
 
@@ -43,28 +43,28 @@ const Navbar = () => {
         >
           <NavLink
             to="/community"
-            className="block py-2 text-gray-700 hover:underline font-bold text-center"
+            className="block text-gray-800 hover:border-b-2 border-blue-500 font-bold text-center" style={{ fontFamily: 'Poppins, sans-serif' }}
             onClick={toggleMenu}
           >
             Community
           </NavLink>
           <NavLink
             to="/services"
-            className="block py-2 text-gray-700 hover:underline font-bold text-center"
+            className="block text-gray-800 hover:border-b-2 border-blue-500 font-bold text-center" style={{ fontFamily: 'Poppins, sans-serif' }}
             onClick={toggleMenu}
           >
             Services
           </NavLink>
           <NavLink
             to="/career"
-            className="block py-2 text-gray-700 hover:underline font-bold text-center"
+            className="block text-gray-800 hover:border-b-2 border-blue-500 font-bold text-center" style={{ fontFamily: 'Poppins, sans-serif' }}
             onClick={toggleMenu}
           >
             Careers
           </NavLink>
           <NavLink
             to="/contact"
-            className="block py-2 text-gray-700 hover:underline font-bold text-center"
+            className="block text-gray-800 hover:border-b-2 border-blue-500 font-bold text-center" style={{ fontFamily: 'Poppins, sans-serif' }}
             onClick={toggleMenu}
           >
             Contact Us

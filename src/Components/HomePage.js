@@ -6,30 +6,30 @@ const HomePage = () => {
     <>
       <section className="bg-yellow-100 p-8 flex flex-col justify-center items-center">
         <div className="text-center">
-          <h2 className="text-sm text-gray-600 font-medium">
-            CREATIVE WORK, CREATIVE MIND
-          </h2>
+        <h2 className="text-sm text-gray-800 font-medium mb-5" style={{ fontFamily: "Eras ITC, Eras Light ITC, sans-serif" }}>
+  CREATIVE WORK, CREATIVE MIND
+</h2>
 
           {/* <TypingAnimation
             className="text-4xl font-bold text-black dark:text-white"
             text="Typing Animation"
           /> */}
 
-          <h1 className="text-4xl md:text-5xl font-normal text-gray-800 mt-2 font-Yeseva">
+          <h1 className="text-4xl md:text-5xl font-normal text-gray-900 mt-2 font-Yeseva">
             A platform
             <br /> empowering creators,
             <br /> elevating brands
           </h1>
-          <p className="text-lg text-gray-700 mt-4">
+          <p className="text-lg text-rose-800 mt-4" style={{ fontFamily: "Eras ITC, Eras Medium ITC, sans-serif" }}>
             We serve as the bridge between innovative brands and <br /> talented
             creators, crafting partnerships that inspire and elevate.
           </p>
         </div>
         <div className="mt-8 space-x-0 flex flex-col md:flex-row md:space-x-4">
-          <button className="bg-blue-600 text-white px-6 py-3 rounded mb-4 md:mb-0">
+          <button className="bg-[#061BB0] text-sm text-white px-6 py-3 rounded mb-4 md:mb-0" style={{ fontFamily: 'Poppins, sans-serif' }}>
             I'M A CREATOR
           </button>
-          <button className="bg-blue-600 text-white px-6 py-3 rounded">
+          <button className="bg-[#061BB0] text-sm text-white px-6 py-3 rounded" style={{ fontFamily: 'Poppins, sans-serif' }}>
             WE'RE A BRAND
           </button>
         </div>

@@ -33,6 +33,8 @@ module.exports = {
       },
       fontFamily: {
         Yeseva: ["Yeseva One", "serif"],
+        aclonica: ['Aclonica', 'sans-serif'],
+        HoloLens: ['HoloLens MDL2 Assets', 'sans-serif'],
       },
     },
   },
