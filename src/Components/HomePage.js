@@ -25,8 +25,8 @@ const HomePage = () => {
             creators, crafting partnerships that inspire and elevate.
           </p>
         </div>
-        <div className="mt-8 space-x-0 flex flex-col md:flex-row md:space-x-4">
-          <button className="bg-[#061BB0] text-sm text-white px-6 py-3 rounded mb-4 md:mb-0" style={{ fontFamily: 'Poppins, sans-serif' }}>
+        <div className="mt-8 space-x-2 flex flex-row md:space-x-4">
+          <button className="bg-[#061BB0] text-sm text-white px-6 py-3 rounded mb-0" style={{ fontFamily: 'Poppins, sans-serif' }}>
             I'M A CREATOR
           </button>
           <button className="bg-[#061BB0] text-sm text-white px-6 py-3 rounded" style={{ fontFamily: 'Poppins, sans-serif' }}>

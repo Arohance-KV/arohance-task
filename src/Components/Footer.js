@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-yellow-100 p-8 md:p-16">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
         
         {/* Logo Section */}
         <div className="flex flex-col items-center md:items-start">
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
           
           {/* Subscription and Social Media Section */}
-          <div>
+          <div className="flex flex-col">
             <div className="mb-4">
               <label
                 htmlFor="email"
@@ -69,7 +69,7 @@ const Footer = () => {
             
             {/* Social Media Links */}
             <div className="flex justify-center md:justify-start space-x-4">
-              <p className="mb-2">Follow Us</p>
+              <p className="mb-2">Follow Us:</p>
               <a
                 href="https://www.linkedin.com/company/arohance-india/"
                 className="text-gray-700 hover:text-gray-900"
